@@ -32,12 +32,11 @@ if (G5_IS_MOBILE) {
         <div id="ft_company" class="ft_cnt">
         	<h2>사이트 정보</h2>
 	        <p class="ft_info">
-	        	회사명 : 회사명 / 대표 : 대표자명<br>
-				주소  : OO도 OO시 OO구 OO동 123-45<br>
-				사업자 등록번호  : 123-45-67890<br>
-				전화 :  02-123-4567  팩스  : 02-123-4568<br>
-				통신판매업신고번호 :  제 OO구 - 123호<br>
-				개인정보관리책임자 :  정보책임자명<br>
+	        	회사명 : HT IT Solution / 대표 : Heemoon Yoon<br>
+                주소  : Sandybay, Tas, 7005<br>
+                ABN : 62425527307<br>
+                전화 :  0499-502-210 <br>
+                개인정보관리책임자 :  Xixi Yao<br>
 			</p>
 	    </div>
         <?php
@@ -51,7 +50,7 @@ if (G5_IS_MOBILE) {
 		<?php echo visit('theme/basic'); // 접속자집계, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
 	</div>      
         <!-- <div id="ft_catch"><img src="<?php echo G5_IMG_URL; ?>/ft_logo.png" alt="<?php echo G5_VERSION ?>"></div> -->
-        <div id="ft_copy">Copyright &copy; <b>소유하신 도메인.</b> All rights reserved.</div>
+        <div id="ft_copy">Copyright &copy; <b>taskorea.com.au</b> All rights reserved.</div>
     
     
     <button type="button" id="top_btn">
