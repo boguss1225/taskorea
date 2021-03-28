@@ -36,9 +36,9 @@ header("Pragma: no-cache"); // HTTP/1.0
 <head>
 <meta property="og:type" content="website">
 <meta property="og:title" content="TasKorea 타즈한인커뮤니티">
-<meta property="og:url" content="taskorea.com.au">
+<meta property="og:url" content="http://taskorea.com.au">
 <meta property="og:description" content="타즈매니아 쉐어,구직,정보공유,중고장터">
-<meta property="og:image" content="<?php echo G5_IMG_URL ?>/Thumbnail1.png"> 
+<meta property="og:image" content="<?php echo G5_IMG_URL ?>/thumbnail.png"> 
 <meta charset="utf-8">
 <?php
 if (G5_IS_MOBILE) {
