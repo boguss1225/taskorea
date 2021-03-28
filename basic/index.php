@@ -9,8 +9,17 @@ if (G5_IS_MOBILE) {
 
 include_once(G5_THEME_PATH.'/head.php');
 ?>
+<link rel="stylesheet" href="<?php echo G5_URL;?>/theme/basic/css/customised_bootstrap.css">
 
 <h2 class="sound_only">최신글</h2>
+
+<!-- Top Advertisements -->
+<a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
+    <div class="jumbotron text-center"
+    style="background-image: url(<?php echo G5_URL;?>/theme/basic/adv/index_1_long.png); background-size: cover;">
+    </div>
+</a>
+<!-- End - Top Advertisements -->
 
 <div class="latest_top_wr">
     <div style="float:left;" class="lt_wr">
@@ -40,6 +49,31 @@ include_once(G5_THEME_PATH.'/head.php');
     ?>
     </div>
 </div>
+
+<div class="latest_wr">
+    <!-- Middle Advertisements -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
+                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid1.png" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
+                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid2.png" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
+                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid3.png" class="img-responsive">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End - Middle Advertisements -->
+</div>
+
 <div class="latest_wr">
     <!-- 사진 최신글2 { -->
     <?php
@@ -62,6 +96,29 @@ include_once(G5_THEME_PATH.'/head.php');
     <!-- } 사진 최신글2 끝 -->
 </div>
 
+<div class="latest_wr">
+    <!-- Bottom Advertisements -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
+                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_btm1.png" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
+                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_btm2.png" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
+                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_btm3.png" class="img-responsive">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End - Bottom Advertisements -->    
+</div>
 
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
