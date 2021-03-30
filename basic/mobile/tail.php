@@ -21,10 +21,10 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
     <div class="ft_cnt">
     	<h2>사이트 정보</h2>
         <p class="ft_info">
-        	회사명 : HT IT Solution / 대표 : Heemoon Y<br>
+        	회사명 : HT IT Solution <!-- / 대표 : Heemoon Y--><br>
             주소  : Sandybay, Tas, 7005<br>
             전화 :  0499-502-210 <br>
-            개인정보관리책임자 :  Xixi Yao<br>
+            <!-- 개인정보관리책임자 :  Xixi Yao--><br>
 		</p>
     </div>
     <button type="button" id="top_btn"><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span></button>

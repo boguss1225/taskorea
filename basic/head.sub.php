@@ -34,6 +34,7 @@ header("Pragma: no-cache"); // HTTP/1.0
 <!doctype html>
 <html lang="ko">
 <head>
+<script data-ad-client="ca-pub-5970241667195896" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <meta property="og:type" content="website">
 <meta property="og:title" content="TasKorea 타즈한인커뮤니티">
 <meta property="og:url" content="http://taskorea.com.au">
