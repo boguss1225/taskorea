@@ -52,25 +52,27 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <div class="latest_wr">
     <!-- Middle Advertisements -->
+    <!--
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-xs-4" style="padding: 0;">
                 <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
                     <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid1.png" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-xs-4" style="padding: 0;">
                 <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
                     <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid2.png" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-xs-4" style="padding: 0;">
                 <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
                     <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid3.png" class="img-responsive">
                 </a>
             </div>
         </div>
     </div>
+    -->
     <!-- End - Middle Advertisements -->
 </div>
 
@@ -100,19 +102,19 @@ include_once(G5_THEME_PATH.'/head.php');
     <!-- Bottom Advertisements -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-xs-4" style="padding: 0;">
                 <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
                     <img src="<?php echo G5_URL;?>/theme/basic/adv/index_btm1.png" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-xs-4" style="padding: 0;">
                 <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
-                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_btm2.png" class="img-responsive">
+                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid3.png" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-xs-4" style="padding: 0;">
                 <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company">
-                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_btm3.png" class="img-responsive">
+                    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid2.png" class="img-responsive">
                 </a>
             </div>
         </div>

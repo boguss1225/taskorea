@@ -35,6 +35,8 @@ header("Pragma: no-cache"); // HTTP/1.0
 <html lang="ko">
 <head>
 <script data-ad-client="ca-pub-5970241667195896" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta name=”keywords” content = “타즈매니아,타즈마니아,타즈,타즈한인,태즈매니아,태즈마니아″>
+<meta name = “description” content = “타즈매니아_한인_커뮤니티”>
 <meta property="og:type" content="website">
 <meta property="og:title" content="TasKorea 타즈한인커뮤니티">
 <meta property="og:url" content="http://taskorea.com.au">
@@ -54,6 +56,7 @@ if (G5_IS_MOBILE) {
 if($config['cf_add_meta'])
     echo $config['cf_add_meta'].PHP_EOL;
 ?>
+<link rel="icon" href="<?php echo G5_IMG_URL ?>/thumbnail.png" type="image/icon type">
 <title><?php echo $g5_head_title; ?></title>
 <link rel="stylesheet" href="<?php echo run_replace('head_css_url', G5_THEME_CSS_URL.'/'.(G5_IS_MOBILE ? 'mobile' : 'default').'.css?ver='.G5_CSS_VER, G5_THEME_URL); ?>">
 <!--[if lte IE 8]>

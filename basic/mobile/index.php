@@ -11,9 +11,9 @@ include_once(G5_THEME_MOBILE_PATH.'/head.php');
 <!-- 메인화면 최신글 시작 -->
 <?php	echo latest('theme/basic', 'community', 12, 25);?>
 
-<a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company" class="lt owl-carousel-wrap">
+<!-- <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company" class="lt owl-carousel-wrap">
     <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid1.png" class="img-responsive"  style="max-width: 100%; max-height: 50%;">
-</a>
+</a> -->
 
 <?php	echo latest('theme/basic', 'rent', 12, 25);?>
 
@@ -23,14 +23,14 @@ include_once(G5_THEME_MOBILE_PATH.'/head.php');
 
 <?php	echo latest('theme/basic', 'job', 12, 25);?>
 
-<a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company" class="lt owl-carousel-wrap">
+<!-- <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company" class="lt owl-carousel-wrap">
     <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid3.png" class="img-responsive"  style="max-width: 100%; max-height: 50%;">
-</a>
+</a> -->
 
 <?php	echo latest('theme/basic', 'secondhand', 12, 25);?>
 
 <a href= "<?php echo G5_URL;?>/bbs/content.php?co_id=company" class="lt owl-carousel-wrap">
-    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_btm1.png" class="img-responsive"  style="max-width: 100%; max-height: 50%;">
+    <img src="<?php echo G5_URL;?>/theme/basic/adv/index_mid3.png" class="img-responsive"  style="max-width: 100%; max-height: 50%;">
 </a>
 
 <?php	echo latest('theme/basic', 'lifeinfo', 12, 25);?>

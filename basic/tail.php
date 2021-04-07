@@ -32,7 +32,7 @@ if (G5_IS_MOBILE) {
         <div id="ft_company" class="ft_cnt">
         	<h2>사이트 정보</h2>
 	        <p class="ft_info">
-	        	회사명 : HT IT Solution / <!-- 대표 : Heemoon Y--><br>
+	        	회사명 : HT IT Solution <!-- / 대표 : Heemoon Y--><br>
                 주소  : Sandybay, Tas, 7005<br>
                 전화 :  0499-502-210 <br>
                 <!-- 개인정보관리책임자 :  Xixi Yao--><br>
